@@ -8,8 +8,8 @@ const Organisations = () => {
 
     // 
     const organisationList = Array.from({ length: 10 }).map((_, idx) => (
-        <Organisation/>
-      ))
+        <Organisation key={`${idx}organisationListItem`}/>
+    ));
 
     return (
         <ListGroup variant="flush">

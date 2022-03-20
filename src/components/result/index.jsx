@@ -50,7 +50,7 @@ const Result = ({
                             <User/>
                         </Col>
                         <Col xl={9} md={8} sm={12}>
-                            <Organisations/>
+                            <Repositories/>
                         </Col>
                     </Row>
                 </Container>
