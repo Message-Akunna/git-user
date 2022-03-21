@@ -16,7 +16,7 @@ const Main = ({
     <Fragment>
         <header className="py-3 mb-0 border-bottom">
             <Container className="d-flex flex-wrap justify-content-center">
-                <Link to="/" className="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto text-dark text-decoration-none">
+                <Link to="/" className="d-flex align-items-center mb-0 me-lg-auto text-dark text-decoration-none">
                     <Image className="" src={AppLogo} width="40" height="auto"/>
                     <span className="fs-4 ms-2">Git user</span>
                 </Link>
