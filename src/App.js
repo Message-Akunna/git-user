@@ -1,5 +1,4 @@
 import React, { Fragment } from "react";
-import { Placeholder } from "react-bootstrap";
 // 
 import { Routes, Route } from "react-router-dom";
 // component

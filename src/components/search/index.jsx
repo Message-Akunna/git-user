@@ -43,7 +43,6 @@ const Search = () => {
         }
     }
 
-    const hasError = (field) => !!errors[field];
     const getError = (field) => errors[field];
 
     return (

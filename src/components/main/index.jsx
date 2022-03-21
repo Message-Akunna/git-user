@@ -1,18 +1,12 @@
 import React, { Fragment } from 'react';
-import PropTypes from 'prop-types';
 import { Link } from "react-router-dom";
-// react components
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import Nav from "react-bootstrap/Nav";
-import Form from "react-bootstrap/Form";
+// react bootstrap components
 import Image from "react-bootstrap/Image";
 import Container from "react-bootstrap/Container";
 // resources
 import AppLogo from "../../assets/images/logo.png";
 // components
 import Search from '../search';
-import User from '../user';
 
 const Main = ({
     children, 
