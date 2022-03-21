@@ -5,6 +5,7 @@ const initialState = {
 	isUserLoading: false, //will be true when fetching data and back to false when the fetch is done
 	isUserLoaded: false,
 	isCategoryDeleting: false,
+    userErrorMessage: ""
 }
 
 //export the post reducer
@@ -14,7 +15,7 @@ const userReducer = (state = initialState, action) => {
 			return {
 				...state,
 				user: {
-					...action.payload.productUser
+					...action.payload
                 },
 				isUserLoading: false,
 				isUserLoaded: true

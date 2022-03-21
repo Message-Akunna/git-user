@@ -24,7 +24,7 @@ const Main = ({
             <Container className="d-flex flex-wrap justify-content-center">
                 <Link to="/" className="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto text-dark text-decoration-none">
                     <Image className="" src={AppLogo} width="40" height="auto"/>
-                    <span className="fs-4 ms-2">Get git user</span>
+                    <span className="fs-4 ms-2">Git user</span>
                 </Link>
                 <h3 className="col-12 col-lg-auto mb-3 mb-lg-0">
                     <i className='bi-emoji-heart-eyes'></i>
