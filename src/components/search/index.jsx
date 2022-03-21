@@ -62,7 +62,7 @@ const Search = () => {
                                 <Form.Control size='lg' 
                                     type="search"
                                     name='name'
-                                    placeholder="User name or email"
+                                    placeholder="Enter git user name..."
                                     onChange={handleChange} 
                                     defaultValue={name}
                                     required />
