@@ -1,7 +1,6 @@
 import React, { Fragment, useEffect, useState } from 'react';
 import {connect} from 'react-redux';
-import PropTypes from 'prop-types';
-import { Link, useNavigate, useLocation, useParams, NavLink } from "react-router-dom";
+import { useParams, NavLink } from "react-router-dom";
 // react components
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
