@@ -55,10 +55,10 @@ const Search = () => {
                         Search users <Link className='' to="/">repositories</Link> and  <Link className='' to="/">organizations</Link> on github...
                     </p>
                 </div>
-                <div className='p-4 bg-white rounded-3 border'>
+                <div className='p-lg-4 p-md-3 p-2 bg-white rounded-3 border'>
                     <Form className="needs-validation" validated={validated} onSubmit={handleSubmit}>
-                        <Row className='g-3'>
-                            <Col className='flex-grow-1'>
+                        <Row className='g-2'>
+                            <Col className='flex-grow-1 m-0'>
                                 <Form.Control size='lg' 
                                     type="search"
                                     name='name'
@@ -67,7 +67,7 @@ const Search = () => {
                                     defaultValue={name}
                                     required />
                             </Col>
-                            <Col className='flex-grow-0'>
+                            <Col className='flex-grow-0 m-0'>
                                 <Button type="submit" className='' 
                                     size='lg' disabled={processing}
                                     variant='primary'>
@@ -84,7 +84,7 @@ const Search = () => {
                                     }
                                 </Button>
                             </Col>
-                            <Col className='' xs={12}>
+                            <Col className='m-0' xs={12}>
                                 <Form.Control.Feedback type="invalid">
                                     {getError("name")}
                                 </Form.Control.Feedback>
