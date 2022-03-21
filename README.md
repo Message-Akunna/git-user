@@ -5,6 +5,16 @@ A web application that retrieves and displays users Github repositories and orga
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+To run this project localy,
+## Setting Up the Git User App Localy
+
+Clone the git-user repository:
+git clone https://github.com/Message-Akunna/git-user.git
+Alternatively, you can just download and unzip this file instead of cloning the repository.
+
+## Step 2: 
+cd into the new folder and type. yarn install. This installs the required dependencies.
+
 ## Available Scripts
 
 In the project directory, you can run:
