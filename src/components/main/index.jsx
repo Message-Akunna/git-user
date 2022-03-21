@@ -20,7 +20,7 @@ const Main = ({
                     <Image className="" src={AppLogo} width="40" height="auto"/>
                     <span className="fs-4 ms-2">Git user</span>
                 </Link>
-                <h3 className="col-12 col-lg-auto mb-3 mb-lg-0">
+                <h3 className="col-12 col-lg-auto mb-3 mb-lg-0 d-none d-lg-block">
                     <i className='bi-emoji-heart-eyes'></i>
                 </h3>
             </Container>
