@@ -58,7 +58,7 @@ const Search = () => {
                 <div className='p-lg-4 p-md-3 p-2 bg-white rounded-3 border'>
                     <Form className="needs-validation" validated={validated} onSubmit={handleSubmit}>
                         <Row className='g-2'>
-                            <Col className='flex-grow-1 m-0'>
+                            <Col className='flex-grow-1'>
                                 <Form.Control size='lg' 
                                     type="search"
                                     name='name'
@@ -67,7 +67,7 @@ const Search = () => {
                                     defaultValue={name}
                                     required />
                             </Col>
-                            <Col className='flex-grow-0 m-0'>
+                            <Col className='flex-grow-0'>
                                 <Button type="submit" className='' 
                                     size='lg' disabled={processing}
                                     variant='primary'>
@@ -84,7 +84,7 @@ const Search = () => {
                                     }
                                 </Button>
                             </Col>
-                            <Col className='m-0' xs={12}>
+                            <Col className='mt-0' xs={12}>
                                 <Form.Control.Feedback type="invalid">
                                     {getError("name")}
                                 </Form.Control.Feedback>
