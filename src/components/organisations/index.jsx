@@ -7,7 +7,7 @@ import Organisation from './Organisation';
 const Organisations = () => {
 
     // 
-    const organisationList = Array.from({ length: 10 }).map((_, idx) => (
+    const organisationList = Array.from({ length: 20 }).map((_, idx) => (
         <Organisation key={`${idx}organisationListItem`}/>
     ));
 

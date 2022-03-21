@@ -1,6 +1,6 @@
 import React from 'react';
 // 
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 // react components
 import Col from "react-bootstrap/Col"; 
 import Row from "react-bootstrap/Row"; 
@@ -9,7 +9,8 @@ import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container"; 
 
 
-const Search = () => {
+const Search = ({ }) => {
+    
     return (
         <section className='search-section bg-light py-5 border-bottom'>
             <Container className=''>
@@ -21,15 +22,17 @@ const Search = () => {
                     </p>
                 </div>
                 <div className='p-4 bg-white rounded-3 border'>
-                    <Form>
+                    <Form method='GET' action=''>
                         <Row className='g-3'>
                             <Col className='flex-grow-1'>
                                 <Form.Control size='lg' 
                                     type="search"
-                                    placeholder="User name or email" />
+                                    name='name'
+                                    placeholder="User name or email"
+                                    required />
                             </Col>
                             <Col className='flex-grow-0'>
-                                <Button className='' 
+                                <Button type="submit" className='' 
                                     size='lg' 
                                     variant='primary'>
                                     <i className='bi bi-search'></i>

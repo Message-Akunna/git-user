@@ -15,16 +15,14 @@ const Repository = () => {
     ));
 
     return (
-        <ListGroup.Item>
-            <div className='py-3'>
-                <a href="http://" className='h5 text-decoration-none d-block'>HNG-Pre-internship-Task2</a>
-                <p className='text-muted'>A web application that retrieves and displays users Github repositories and organisations.</p>
-                <div className='d-flex justify-content-start flex-wrap'>
-                    {repositoryLanguageLists}
-                    <span className='repo-star me-3 small'> <i className='bi bi-star'></i> 2.4K</span>
-                    <span className='repo-fork me-3 small'> <i className='bi bi-diagram-2'></i> 3.4K</span>
-                    <span className='repo-time small'>Updated On November 30, 2020</span>
-                </div>
+        <ListGroup.Item className='py-3'>
+            <a href="http://" className='h5 text-decoration-none d-block'>HNG-Pre-internship-Task2</a>
+            <p className='text-muted'>A web application that retrieves and displays users Github repositories and organisations.</p>
+            <div className='d-flex justify-content-start flex-wrap'>
+                {repositoryLanguageLists}
+                <span className='repo-star me-3 small'> <i className='bi bi-star'></i> 2.4K</span>
+                <span className='repo-fork me-3 small'> <i className='bi bi-diagram-2'></i> 3.4K</span>
+                <span className='repo-time small'>Updated On November 30, 2020</span>
             </div>
         </ListGroup.Item>
     )

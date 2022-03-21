@@ -6,7 +6,7 @@ import Repository from './Repository';
 
 const Repositories = () => {
     // 
-    const repositoryList = Array.from({ length: 10 }).map((_, idx) => (
+    const repositoryList = Array.from({ length: 20 }).map((_, idx) => (
         <Repository key={`${idx}repositoryListItem`}/>
     ));
     // 
